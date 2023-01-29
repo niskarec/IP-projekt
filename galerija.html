@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="hr">
+  <head>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	   
+	          <title>Apartmani Nina</title>
+	   <link rel="stylesheet" href="style.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;700&display=swap" rel="stylesheet">
+	  
+	   <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
+	</head>
+  <body>
+       <section class="sub-header">
+	      <nav>
+			 <div class="nav-links" id="navLinks">
+			   <i class="fa fa-times" onclick="hideMenu()"></i>
+			    <ul>
+				  <li><a href="index.html">Naslovna</a></li>
+				  <li><a href="o nama.html">O nama</a></li>
+				  <!--li><a href="">Apartmani</a></li-->
+				  <li><a href="cjenik.html">Cjenik</a></li>
+				  <li><a href="galerija.html">Galerija slika</a></li>  
+				  <li><a href="kontakt.html">Kontakt</a></li>
+				</ul>
+			 </div>
+			 <i class="fa fa-bars" onclick="showMenu()"></i>
+		  </nav>
+		  
+		
+		  <h2>Galerija slika<h2>
+	   </section>
+	   <section class="galerija">
+			
+			<div class="row">
+			    <div class="galerija_a">
+				  <h3>Apartmani<h3>
+				  <a href="apartmani.html" style="text-decoration: none;"><img src="prvaapartmani.jpg">
+				  <p>Pogledajte slike naših apartmana.<p></a>
+				</div>
+				<div class="galerija_a">
+				  <h3>Okućnica<h3>
+				  <a href="okucnica.html" style="text-decoration: none;"><img src="slika1naslovna.jpg">
+				  <p>Pogledajte izgled kuće i njene okućnice.</p></a>
+				</div>
+				<div class="galerija_a">
+				  <h3>Mjesto<h3>
+				  <a href="drage.html" style="text-decoration: none;"><img src="slika2naslovna.jpg">
+				  <p>Pogledajte kako izgledaju Drage. </p></a>
+				</div>
+			</div>
+			
+	   </section>
+			
+		
+	         
+			
+			
+			
+			
+			
+			
+			
+			
+	   <section class="footer">
+	      <p> &copy; Nina Škarec </p>
+	   </section>
+	   
+	   
+	   
+		   
+  
+  
+  
+  <!--ovo je u Javi napravljen meni za mobitele-->
+     <script>
+        var navLinks =  document.getElementById("navLinks");
+		
+		function showMenu(){
+		     navLinks.style.right="0";
+		}
+		function hideMenu(){
+		     navLinks.style.right="-200px";
+		}
+     </script>
+  
+
+  </body>
+
+</html>   

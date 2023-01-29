@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="hr">
+  <head>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	   
+	          <title>Apartmani Nina</title>
+	   <link rel="stylesheet" href="style.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;700&display=swap" rel="stylesheet">
+	  
+	   <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	</head>
+  <body>
+      <header>
+       <section class="header">
+	      <nav>
+			 <div class="nav-links" id="navLinks">
+			   <i class="fa fa-times" onclick="hideMenu()"></i>
+			    <ul>
+				  <li><a href="index.html">Naslovna</a></li>
+				  <li><a href="o nama.html">O nama</a></li>
+				  <!--li><a href="">Apartmani</a></li-->
+				  <li><a href="cjenik.html">Cjenik</a></li>
+				  <li><a href="galerija.html">Galerija slika</a></li>   
+				  <li><a href="kontakt.html">Kontakt</a></li>
+				</ul>
+			 </div>
+			 <i class="fa fa-bars" onclick="showMenu()"></i>
+		  </nav>
+	  </header>
+	
+      <main>	
+		  <div class="text-box">
+		    <h1>Dobrodošli na naše internet stranice</h1>
+			<br>
+			<br>
+			<p>Smješteni na obali Jadranskog mora, između Zadra i Šibenika, nalaze se Apartmani Nina. <br>
+			Tik uz park prirode Vransko jezero i u neposrednoj blizini nacionalnog parka Kornati, nacionalnih parkova Krka, Plitvice i Paklenica. <br>Idealni za miran obiteljski odmor.
+			<br>
+			<br>
+			<br>
+			<br>
+			<a href="kontakt.html" class="hero-btn">Posjetite nas</a>
+		  </div>
+			
+			 
+	   </section>
+	   
+	   
+	  </main>
+	   <!--ponuda-->
+	   <section class="ponuda">
+	      <br>
+	      <h3>Ponuda</h3>
+		    <p>Drage su mirno mjesto, vrlo blizu grada Biograda. Apartmani su udaljeni od plaže 5 min hoda.<br> U neposrednoj blizini su restorani i barovi. Udaljenost apartmana od centra mjesta je 600 m.</p>
+			
+			<div class="row">
+			    <div class="ponuda-apartmani">
+				  <h3>Jednosobni<h3>
+				  <a href="galerija.html" style="text-decoration: none;"><p>Sastoji se od spavaće sobe, kuhinje i kupaonice. Postoje opcije sa velikom terasom ili manjim balkonom, oba su potpuno privatna. Apartman ima TV sa kabelskom, WiFi i klimu. </p></a>
+				</div>
+				<div class="ponuda-apartmani">
+				  <h3>Dvosobni<h3>
+				  <a href="galerija.html" style="text-decoration: none;"><p>Sastoji se od spavaće sobe, dnevnog boravka, kuhinje i kupaonice. Postoje opcije sa velikom terasom ili manjim balkonom, oba su potpuno privatna. Moguće je i iznajmiti apartman koji je odvojen od ostatka kuće, odnosno ima svoj privatni ulaz. Apartman ima TV sa kabelskom, WiFi i klimu. </p></a>
+				</div>
+				<div class="ponuda-apartmani">
+				  <h3>Trosobni<h3>
+				  <a href="galerija.html" style="text-decoration: none;"><p>Sastoji se od dvije spavaće sobe, dvije kupaonice i kuhinje. Ima prostranu terasu s pogledom na borovu šumu i manji balkon. Apartman ima TV sa kabelskom, WiFi i klimu. </p></a>
+				</div>
+			</div>
+			
+	   </section>
+		   
+	   <!--slike-->
+	   <section class="slike">
+	      <div class="row">
+		     <div class="slike_naslov">
+			  <h3>Izgled kuće</h3>
+		      <img src="slika1naslovna.jpg" alt="slika1.jpg">
+			 </div>
+			 <div class="slike_naslov">
+			  <h3>Uvala Porat</h3>
+		      <img src="slika2naslovna.jpg" alt="slika1.jpg">
+			 </div>
+			 <div class="slike_naslov">
+			  <h3>Jadransko more<h3>
+		      <img src="slika3naslovna.jpg" alt="slika1.jpg">
+			 
+			 </div>
+		  </div>
+	   
+	   </section>
+	   
+	   <section class="footer">
+	      <p> &copy; Nina Škarec </p>
+	   </section>
+	   
+	   
+	   
+		   
+  
+  
+  
+  <!--ovo je u Javi napravljen meni za mobitele-->
+     <script>
+        var navLinks =  document.getElementById("navLinks");
+		
+		function showMenu(){
+		     navLinks.style.right="0";
+		}
+		function hideMenu(){
+		     navLinks.style.right="-200px";
+		}
+     </script>
+  
+
+  </body>
+
+</html>   

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="hr">
+  <head>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	   
+	          <title>Apartmani Nina</title>
+	   <link rel="stylesheet" href="style.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;700&display=swap" rel="stylesheet">
+	  
+	   <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	</head>
+  <body>
+       <section class="sub-header">
+	      <nav>
+			 <div class="nav-links" id="navLinks">
+			   <i class="fa fa-times" onclick="hideMenu()"></i>
+			    <ul>
+				  <li><a href="index.html">Naslovna</a></li>
+				  <li><a href="o nama.html">O nama</a></li>
+				  <!--li><a href="">Apartmani</a></li-->
+				  <li><a href="cjenik.html">Cjenik</a></li>
+				  <li><a href="galerija.html">Galerija slika</a></li>   
+				  <li><a href="kontakt.html">Kontakt</a></li>
+				</ul>
+			 </div>
+			 <i class="fa fa-bars" onclick="showMenu()"></i>
+		  </nav>
+		  
+		
+		  <h2>Kontakt<h2>
+	   </section>
+	   
+	   <section class="lokacija">
+	       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2875.526226511569!2d15.533083614633897!3d43.88636684534125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1334cc455dcce0df%3A0xa71c16bdc8647f48!2sPut%20Malenice%2014%2C%2023211%2C%20Drage!5e0!3m2!1sen!2shr!4v1675010465266!5m2!1sen!2shr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			 
+	   
+	   </section>
+	   <section class="kontakt">
+	       <div class="row">
+		      <div class="kontakt_col">
+			    <div>
+			  	  <i class="fa fa-home"></i>	
+                </div>
+				  <span>
+				      <h5>Put Malenice 14<h5>
+					  <h5>23211 Drage, Pakoštane<h5>
+				  </span>
+			
+			  </div>
+			  <div class="kontakt_col">
+			     <div>
+			  	  <i class="fa fa-phone"></i>	
+                </div>
+				  <span>
+				      <h5>Tel: ++ 385 (0)23/635-282<h5>
+					  <h5>Mob: ++ 385 (0)98/932-7572<h5>
+				  </span>
+			  </div>
+			  <div class="kontakt_col">
+			     <div>
+			  	  <i class="fa fa-envelope-o"></i>	
+                </div>
+				  <span>
+				      <h5>josip.skarec@zd.t-com.hr<h5>
+					  <p>Pošaljite nam upit<p>
+				  </span>
+				  <form action="">
+				     <input type="text" placeholder="Unesite svoje ime" required>
+					 <input type="email" placeholder="Unesite svoju email adresu" required>
+					 <input type="text" placeholder="Unesite naslov poruke" required>
+					 <textarea cols="30" rows="10" placeholder="Napišite poruku"></textarea>
+					 <button type="submit" class="blue-btn">Pošalji</button>
+				  </form>  
+					
+					
+				 
+			  </div>
+		   </div>
+		   
+		   
+		   </section>
+	   <section class="footer">
+	      <p> &copy; Nina Škarec </p>
+	   </section>
+	   
+	   
+	   
+		   
+  
+  
+  
+  <!--ovo je u Javi napravljen meni za mobitele-->
+     <script>
+        var navLinks =  document.getElementById("navLinks");
+		
+		function showMenu(){
+		     navLinks.style.right="0";
+		}
+		function hideMenu(){
+		     navLinks.style.right="-200px";
+		}
+     </script>
+  
+
+  </body>
+
+</html>   
